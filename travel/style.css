@@ -1,0 +1,132 @@
+@font-face { font-family: fnA;
+	src: url(little_star.ttf); }  
+body { font-family: fnA;}
+
+body{
+	background: url(bg/bg2.jpg);
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background: url(bg/head2.jpg);
+	color: #191970;
+	font-size: 2em;
+	background-size: cover;
+	background-position: top;}
+
+header > section {
+    font-size: 2em;
+	padding: 1.5em 10% 1.5em 10%; 
+	text-align: center;
+}
+
+
+ ul.full li a {
+  font-size: 3.5rem; 
+  color: #a52a2a;
+
+}
+
+ul.full {
+	text-align: center;
+	margin: 0;
+	list-style-type: none;
+	position: relative;
+	overflow: auto;
+}
+
+  
+  a.arrow {
+	text-decoration: none;
+	font-size: 4rem; 
+  }
+
+  
+  .arrow:hover {
+	cursor: pointer;
+	background-color: rgba(25, 216, 41, 0.2);
+  }
+   
+ul.line{
+	background: PeachPuff; 
+	margin: 0;
+	list-style-type: none;
+	padding: 20px;
+	position: relative;
+	overflow: auto
+}
+
+ul.menu {
+	background: PeachPuff;
+	margin: 0;
+	list-style-type: none;
+	padding: 0 10% 0 10%; 
+	position: relative;
+	overflow: auto;
+}
+
+ul.menu li a {
+	text-decoration: none;
+	color: #483d8b;
+	font-size: 1.5em;
+	float: left;
+	padding: 0.5em 2em 0.5em 2em;
+}
+ul.menu li a:hover{
+		color: #b8860b;
+}
+
+
+article {display: block;}
+article > section {
+	padding: 1em 10% 0.5em 10%;
+}
+article > section > h2 {
+	color: #556b2f;
+	text-align: center;
+	border-bottom: solid 5px #6b8e23;
+}
+
+#pp {
+	text-indent: 50px;
+	text-align: justify;	
+	font-size: 1.5em;
+}
+	
+#img1 { width: 40%;
+	border-radius: 20px;
+	}
+
+#img2 { width: 30%;
+	border-radius: 20px;
+	}
+#icon {
+		height: 1.1em;
+		vertical-align: top;
+		margin-right: 10px;
+	}
+
+footer {
+	background:#87cefe;
+    text-align: center;
+	font-size: 1.2em;
+	padding: 0.5em 5% 1em 0.5%;
+
+}
+footer a{
+	color: black;
+}
+
+
+@media screen and (max-width: 600px){
+	ul.menu li a {
+		display: block;
+		float: none;
+		text-align: center;	}
+	article > section {
+		padding: 0.5em 10px 10px 10px ;}
+		footer {padding: 0.5em 10px 10px 10px;}
+		footer > section:first-child {
+                display:block; }
+            }
